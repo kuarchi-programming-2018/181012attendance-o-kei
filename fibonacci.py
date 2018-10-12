@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
-Spyderエディタ
-
-これは一時的なスクリプトファイルです
-"""
-
 def fib(n):
-    
-    return n
+    a0 = 0
+    a1 = 1
+    a2 = a1 + a0
+    return a2
+
+print(fib(2))
